@@ -1,0 +1,17 @@
+body {
+  background: url("../imgs/rojo.jpg");
+  background-attachment: fixed;
+}
+
+#logo {
+  background-color: #ca3413;
+  color: white;
+}
+
+#navbar ul li:hover {
+  background-color: #ca3413;
+}
+
+.see-more-button {
+  background-color: #ca3413;
+}

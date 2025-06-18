@@ -1,0 +1,17 @@
+body {
+  background: url("../imgs/cielo.jpg");
+  background-attachment: fixed;
+}
+
+#logo {
+  background-color: #1f87c4;
+  color: white;
+}
+
+#navbar ul li:hover {
+  background-color: #1f87c4;
+}
+
+.see-more-button {
+  background-color: #1f87c4;
+}

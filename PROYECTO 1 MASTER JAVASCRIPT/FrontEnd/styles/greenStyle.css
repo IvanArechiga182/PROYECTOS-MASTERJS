@@ -1,0 +1,17 @@
+body {
+  background: url("../imgs/hojas.jpg");
+  background-attachment: fixed;
+}
+
+#logo {
+  background-color: #235e3d;
+  color: white;
+}
+
+#navbar ul li:hover {
+  background-color: #235e3d;
+}
+
+.see-more-button {
+  background-color: #235e3d;
+}
