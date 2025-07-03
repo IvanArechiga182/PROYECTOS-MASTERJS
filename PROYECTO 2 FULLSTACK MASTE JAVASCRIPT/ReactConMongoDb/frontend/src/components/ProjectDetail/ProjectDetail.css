@@ -1,0 +1,41 @@
+.project-detail-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4em;
+}
+
+.project-detail-container ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.project-detail-container img {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.project-actions {
+  display: flex;
+  gap: 3em;
+  margin-top: 20px;
+}
+
+.delete-project {
+  background-color: red;
+  color: white;
+}
+
+.edit-project {
+  background-color: orange;
+  color: white;
+}
+
+.edit-project,
+.delete-project {
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}

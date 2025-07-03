@@ -1,0 +1,56 @@
+@property --title-color {
+  color: #1e3a8a;
+}
+
+@property --subtitle-color {
+  color: #3b82f6;
+}
+
+@property --plain-text-color {
+  color: #374151;
+}
+
+h1 {
+  color: var(--title-color);
+}
+
+article h2 {
+  color: var(--subtitle-color);
+  border-bottom: 1px solid black;
+}
+
+p {
+  color: var(--plain-text-color);
+}
+
+#title {
+  margin: 0 auto;
+}
+
+#title h1 {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+#title p {
+  text-align: center;
+  font-weight: bold;
+}
+
+#title h2 {
+  border-bottom: 0;
+}
+
+article {
+  width: 70%;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+article h2 {
+  line-height: 60px;
+}
+
+article p {
+  margin-top: 20px;
+}

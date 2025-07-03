@@ -1,0 +1,52 @@
+.container .contact-header {
+  background-color: white;
+  width: fit-content;
+  padding: 1em;
+}
+
+.contact-form-container form {
+  margin-top: 20px;
+  padding: 15px;
+  min-height: 40dvh;
+  min-width: 20dvw;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.contact-form-container form h2 {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 4px;
+  border-radius: 15px;
+}
+
+.contact-form-container form label {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.contact-form-container form input {
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.contact-form-container form input[type="submit"] {
+  padding: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 300ms ease-in-out;
+}
+
+.contact-form-container form input[type="submit"]:hover {
+  background-color: lightblue;
+}
+
+.status-request.success {
+  text-align: center;
+  margin-top: 20px;
+  color: green;
+}
