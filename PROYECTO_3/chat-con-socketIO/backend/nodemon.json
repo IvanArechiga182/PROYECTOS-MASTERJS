@@ -1,0 +1,14 @@
+{
+  "watch": ["src"],
+  "ext": "ts,json",
+  "ignore": [
+    "dist",
+    "node_modules",
+    "**/*.log",
+    ".git",
+    "**/*.js",
+    "tmp",
+    "logs"
+  ],
+  "exec": "ts-node ./src/server/index.ts"
+}
